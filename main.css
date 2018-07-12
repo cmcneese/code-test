@@ -59,8 +59,14 @@ li {
 .discover {
     max-width: 50%;
     display: flex;
-    align-content: center;
+    text-align: center;
     color: white;
+}
+
+p {
+    display: flex;
+    text-align: center;
+    font-size: 3rem;
 }
 
 .main {
