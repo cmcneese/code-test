@@ -53,6 +53,14 @@ li {
     text-decoration: none;
     font-size: 16px;
     border-radius: .25rem;
+    position: relative;
+}
+
+.discover {
+    max-width: 50%;
+    display: flex;
+    align-content: center;
+    color: white;
 }
 
 .main {
@@ -62,6 +70,7 @@ li {
 .grid-container {
     display: flex;
     grid-column-gap: 50px;
+    flex-wrap: wrap;
 }
 
 .grid-item {
