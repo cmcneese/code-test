@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Lato',
+    sans-serif;
+}
+
+.nav {
+    padding: 1em;
+    display: flex;
+}
+
