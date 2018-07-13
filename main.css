@@ -63,10 +63,18 @@ li {
     color: white;
 }
 
+input {
+    display: flex;
+    margin: auto;
+    padding: 1rem; 
+    max-width: 100%;
+    width: 30rem;
+}
+
 p {
     display: flex;
     text-align: center;
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 .main {
@@ -81,6 +89,7 @@ p {
 
 .grid-item {
     padding: 1rem;
+    max-width: 100%;
 }
 
 h3 {
