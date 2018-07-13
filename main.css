@@ -63,6 +63,19 @@ li {
     color: white;
 }
 
+.selection {
+    display: flex;
+    flex-direction: column;
+}
+
+.location {
+    background: white;
+    display: flex;
+    margin: auto;
+    max-width: 50%;
+    width: 15rem;
+}
+
 input {
     display: flex;
     margin: auto;
@@ -78,7 +91,7 @@ p {
 }
 
 .main {
-    padding: 5rem;
+    padding: 7rem;
 }
 
 .grid-container {
@@ -95,3 +108,24 @@ p {
 h3 {
     color: lightgray;
 }
+
+h1 {
+    padding: 1rem;
+    border-bottom: 1px solid lightgray;
+}
+
+button {
+    background-color: rgb(255, 52, 100);
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: .25rem;
+}
+
+.discover {
+    display: flex;
+    margin: auto;
+}
+
+
