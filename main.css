@@ -1,6 +1,8 @@
 body {
     background-color: white;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
     font-family: 'Lato',
     sans-serif;
 }
@@ -130,4 +132,21 @@ button {
     margin: auto;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    padding: 1rem;
+}
 
+.footer-item {
+    padding: 1em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
