@@ -80,10 +80,8 @@ li {
 
 input {
     display: flex;
-    margin: auto;
     padding: 1rem; 
     max-width: 100%;
-    width: 30rem;
     border-radius: .25rem;
 }
 
@@ -132,20 +130,40 @@ button {
     margin: auto;
 }
 
-.drop-down {
+.form {
     display: flex;
-    flex-direction: row;
-    margin: auto;
-    padding: 1em;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
 }
 
-.drop--down_form {
-    max-width: 250px;
-    
+.artist {
+    width: 500px;
+    margin: auto;
 }
+
+.artist--search {
+    padding: 1em;
+    margin: auto;
+    max-width: 533px;
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+} 
+
+.artist--search_form {
+    /* padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px; */
+}
+
 
 .find-events {
-    margin: auto;
+
 }
 
 .footer-container {
