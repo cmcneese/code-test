@@ -58,8 +58,8 @@ li {
 
 .discover {
     max-width: 50%;
+    margin: auto;
     display: flex;
-    text-align: center;
     color: white;
 }
 
