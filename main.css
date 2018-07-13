@@ -44,7 +44,7 @@ li {
 
 .nav-bar {
     display: flex;
-
+    align-items: baseline;
 }
 
 .nav-button {
@@ -129,6 +129,22 @@ button {
 
 .discover {
     display: flex;
+    margin: auto;
+}
+
+.drop-down {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 1em;
+}
+
+.drop--down_form {
+    max-width: 250px;
+    
+}
+
+.find-events {
     margin: auto;
 }
 
