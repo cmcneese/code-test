@@ -3,8 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Lato',
-    sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -25,15 +24,11 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 30rem;    
+    min-height: 30rem;
 }
+
 .darken {
-    background-image:
-        linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-        ),
-        url(./img/Hero.png);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/Hero.png);
 }
 
 .nav {
@@ -81,7 +76,7 @@ li {
 
 input {
     display: flex;
-    padding: 1rem; 
+    padding: 1rem;
     max-width: 100%;
     border-radius: .25rem;
     font-weight: bold;
@@ -111,7 +106,7 @@ p {
     flex-direction: column;
 }
 
-.genre{
+.genre {
     color: lightgray;
     font-size: 16px;
     font-weight: bold;
@@ -166,19 +161,17 @@ button {
 
 .artist {
     width: 500px;
-
 }
 
 .artist--search {
     padding: 1em;
     margin: auto;
     max-width: 533px;
-
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
-} 
+}
 
 .artist--search_form {
     flex-grow: 1;
