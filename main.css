@@ -25,6 +25,7 @@ li {
     background-size: cover;
     position: relative;
     min-height: 30rem;
+    width: 100%;
 }
 
 .darken {
@@ -38,7 +39,7 @@ li {
 }
 
 .nav-bar {
-    display: flex;
+    display: inline-flex;
     align-items: baseline;
 }
 
@@ -91,6 +92,10 @@ p {
 
 .main {
     padding: 7rem;
+}
+
+.nav-bar_item {
+    margin: auto;
 }
 
 .grid-container {
@@ -146,20 +151,20 @@ button {
     color: white;
     padding: 15px 32px;
     text-decoration: none;
+    border: none;
     font-size: 16px;
     border-radius: .25rem;
     font-family: 'Lato', sans-serif;
 }
 
 .form {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
+    margin: auto;
+    justify-content: center;
 }
 
 .artist {
-    width: 500px;
-    align-items: center;
+    width: 484px;
+    justify-content: center;
     margin: auto;
 }
 
