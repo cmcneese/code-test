@@ -127,7 +127,7 @@ p {
 }
 
 .grid-item_price {
-    margin-right: 0.5em;
+    margin: auto;
 }
 
 .city {
@@ -153,14 +153,14 @@ button {
 
 .form {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
-    align-items: center;
 }
 
 .artist {
     width: 500px;
+    align-items: center;
+    margin: auto;
 }
 
 .artist--search {
