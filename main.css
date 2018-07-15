@@ -76,9 +76,7 @@ li {
 }
 
 input {
-    display: flex;
     padding: 1rem;
-    max-width: 100%;
     border-radius: .25rem;
     font-weight: bold;
     font-family: 'Lato';
@@ -158,6 +156,8 @@ button {
 }
 
 .form {
+    display: flex;
+    flex-direction: column;
     margin: auto;
     justify-content: center;
 }
