@@ -9,6 +9,7 @@ body {
 a {
     padding: 1em;
     text-decoration: none;
+    color: black;
 }
 
 li {
@@ -108,10 +109,6 @@ p {
 .artist--search_form {
     flex-grow: 1;
     margin: .5em;
-    /* padding: 5px;
-    width: 200px;
-    height: 150px;
-    margin-top: 10px; */
 }
 
 .main {
