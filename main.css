@@ -94,17 +94,14 @@ p {
 .form {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    justify-content: center;
 
 }
 .artist--search {
-    padding: 1em;
-    margin: auto;
     max-width: 533px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    align-content: center;
     justify-content: space-between;
 }
 
