@@ -87,7 +87,7 @@ input {
 }
 
 p {
-    margin: auto;
+    display: flex;
     text-align: center;
     font-size: 3em;
 }
