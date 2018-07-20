@@ -41,7 +41,7 @@ li {
 }
 
 .nav-bar {
-    display: flex;
+    display: inline-flex;
     align-items: baseline;
 }
 
