@@ -28,6 +28,7 @@ li {
     position: relative;
     min-height: 30rem;
     width: 100%;
+    height: 650px;
 }
 
 .darken {
