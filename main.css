@@ -20,7 +20,7 @@ li {
 }
 
 .hero {
-    background: url(./img/Hero.png);
+    background: url(./img/hero.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
